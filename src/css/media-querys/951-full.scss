@@ -1,0 +1,88 @@
+@media screen and (min-width: 951px){
+
+    .logo-grande{
+
+        
+
+        img{
+
+            width: 40% !important;
+        }
+    }
+
+    .principal{
+
+        padding-left: 10% !important;
+
+
+        .titulop-grande{
+
+            padding-top: 18% !important;
+        }
+
+    }
+
+    
+    .quem-somos{
+
+        
+        background-image: url("../img/bg-quemsomos.png");
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 1100px;
+
+        .ctn-quemsomos{
+
+            padding-left: 10% !important;
+
+            .titulo-quemsomos{
+
+                padding: 5% 0 10% 0 !important;
+            }
+        }
+
+        p{
+
+            width: 50% !important;
+        }
+    }
+
+
+    .item-grande{
+
+        padding-top: 8% !important;
+        margin: 0 !important;
+        
+    }
+
+    .titulo-boxesgrande{
+
+        padding: 7% 0 7% 0 !important;
+    }
+
+    .vamos-conversar{
+
+        width: 50% !important;
+    }
+
+    .mapa{
+
+        width: 50% !important;
+        height: auto;
+        background-image: url("../img/mapa.jpg");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 800px;
+    }
+
+    .ctn-conversa{
+
+        display: flex;
+    }
+
+
+
+
+
+
+}

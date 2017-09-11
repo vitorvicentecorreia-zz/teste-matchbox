@@ -1,0 +1,56 @@
+@media screen and (min-width: 770px){
+
+    .logo-superior{
+
+        img{
+
+            width: 50% !important;
+        }
+    }
+
+    .lista-menu{
+
+        display: flex !important ;
+    }
+
+    #menu, .menu-grande{
+
+        display: none;
+    }
+
+    .titulo-principal{
+
+        padding-top: 25% !important;
+    }
+
+    .titulo-nossosboxes{
+
+        padding-left: 6% !important;
+    }
+
+    .nossos-boxes{
+
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .nome, .telefone{
+
+        width: 48% !important;
+    }
+
+    .nome, .telefone, .email{
+
+        padding: 4px !important;
+    }
+
+    .form-grande{
+
+        width: 70% !important;
+    }
+
+    .logo-footer{
+
+        width: 10% !important;
+    }
+}

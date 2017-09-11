@@ -1,0 +1,81 @@
+//vamos conversar
+
+.vamos-conversar{
+
+    background-color: #483699;
+    color: white;
+
+    .ctn-vamos{
+
+        padding-left: 15%;
+        width: 80%;
+        
+        .titulo-vamos{
+
+            text-align: left;
+            font-size: 3.2em;
+            font-weight: 100;
+            padding: 13% 0 5%;
+            width: 100%;
+
+            span{
+
+                font-weight: bold;
+            }
+        }
+
+        .endereco{
+
+            padding-bottom: 3%;
+            width: 80%;
+        }         
+    }
+
+    .formulario-vamos{
+
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 10% auto 0 auto;
+        padding-bottom: 10%;
+
+        input, textarea{
+
+            padding: 3%;
+            background-color: transparent;
+            border: 1.5px solid #ffad00;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            color: white;
+
+            &::-webkit-input-placeholder{
+
+                color: white;
+                font-weight: 300;
+            }
+        }            
+
+        .nome, .telefone{
+
+            width: 100%;
+        }
+        
+        .email, .desabafe{
+
+            width: 100%;
+        }
+
+        .botao-enviar{
+
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+
+            .enviar{
+
+                padding: 5px 50px;
+            }
+        }            
+    }  
+}

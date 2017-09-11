@@ -1,0 +1,214 @@
+//SUPERIOR
+
+.superior{
+
+    background-image: url('../img/bg-superior.jpg');
+    background-position: center ;
+
+    .menu-superior{
+
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(21, 22, 32, .8);
+
+        .logo-superior{
+
+            width: 50%;
+            padding: 4%;
+
+            img{
+
+                width: 80%;
+            }
+        }
+
+        .lista-menu{
+            display: none;
+            justify-content: flex-end;
+            width: 80%;
+
+
+            li{
+
+                margin-right: 3%;
+
+                a{
+
+                    color: white;
+                    text-transform: lowercase;
+                }
+            }
+        }
+
+        .menu-mobile{
+
+            width: 100%;
+            height: 100vh;
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: #fecd23;
+            padding-top: 20%;
+            text-align: center;
+
+            li{
+
+                padding: 7%;
+                font-weight: bold;
+                font-size: 1.5em;
+
+                a{
+
+                    color: rgb(72, 54, 153);
+                }
+            }            
+        }
+
+        .menu-fixo{
+
+            position: fixed !important;
+            right: 15;
+        }
+    }
+
+    #menu {
+        width: 50px;
+        height: 24px;
+        position: relative;        
+        margin: 0 auto;
+        margin-left: 25%;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        z-index: 400;
+
+        span {
+            display: block;
+            position: absolute;
+            height: 6px;
+            width: 100%;
+            background: white;
+            border-radius: 9px;
+            opacity: 1;
+            left: 0;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: .25s ease-in-out;
+            -moz-transition: .25s ease-in-out;
+            -o-transition: .25s ease-in-out;
+            transition: .25s ease-in-out;
+
+            &:nth-child(1) {
+                top: -4px;
+                -webkit-transform-origin: left center;
+                -moz-transform-origin: left center;
+                -o-transform-origin: left center;
+                transform-origin: left center;
+            }
+
+            &:nth-child(2) {
+                top: 10px;
+                -webkit-transform-origin: left center;
+                -moz-transform-origin: left center;
+                -o-transform-origin: left center;
+                transform-origin: left center;
+            }
+
+            &:nth-child(3) {
+                top: 24px;
+                -webkit-transform-origin: left center;
+                -moz-transform-origin: left center;
+                -o-transform-origin: left center;
+                transform-origin: left center;
+            }
+        }
+    }
+
+
+    #menu.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -7px;
+    left: 8px;
+    }
+
+    #menu.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+    }
+
+    #menu.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 28px;
+    left: 8px;
+    }
+
+    .principal{
+
+        height: 100%;
+        padding-left: 15%;
+        background-color: rgba(72, 54, 152, 0.2);
+
+
+
+        .titulo-principal{
+
+            font-size: 3.2em;
+            font-weight: 100;
+            color: white;
+            padding-top: 40%;
+            padding-bottom: 2%;
+
+            span{
+
+                font-weight: bold;
+
+            }
+        }
+
+        .subtitulo-principal{
+
+            font-size: 1.5em;
+            color: white;
+            padding-bottom: 2%;
+        }
+
+        .botao-principal{
+
+            padding: 10px 35px;
+            margin: 2% 2% 0% 0;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+
+            &:after{
+
+                content: url("../img/icone-botao.png");
+                padding-left: 30px;              
+                
+            }
+        }
+    }
+}

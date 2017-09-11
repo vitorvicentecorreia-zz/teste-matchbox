@@ -1,0 +1,52 @@
+@media screen and (min-width: 480px) {
+
+    .superior{
+
+
+        .logo-superior{
+
+            width: 40% !important;
+            padding: 1.5% !important;
+        }
+    }
+
+    #menu{
+
+        margin-left: 43% !important;
+    }
+
+
+    .item-box{
+
+        padding-top: 14% !important;
+        width: 28% !important;
+    }
+
+
+
+    .formulario-vamos{
+
+        margin: 5% auto 0 auto !important;
+
+        input{
+
+            padding: 2% !important;
+            margin-bottom: 3% !important;
+        }
+
+        .enviar{
+
+            padding: 7px 50px !important;
+        }
+    }
+
+}
+
+@media screen and (min-width: 600px){
+
+    .menu-grande{
+
+        left: 20;
+    }
+}
+

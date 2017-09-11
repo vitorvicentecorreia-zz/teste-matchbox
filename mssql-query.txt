@@ -1,0 +1,15 @@
+
+1º select * from livro where editora = 'FX USA'
+
+2º SELECT * FROM `notafiscal` where data_compra BETWEEN '2008-01-01' and '2008-12-31'
+
+3º select COUNT(data_compra) as total_vendidos from notafiscal where cast(data_compra as time) between '13:00:00' and '17:30:00'
+
+4º select SUM(quantidade) as total_livros from notafiscal
+
+5º insert into usuario (nome) values ("Vitor");
+
+6º select u.nome, nf.data_compra, l.titulo from usuario u 
+	join notafiscal nf on u.id = nf.user_id
+	join livro l on l.id = nf.livro_id
+	where u.id = 6	
